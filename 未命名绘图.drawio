@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T03:05:33.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="qAEHODz6s1EQKdT-nKfP" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-19T03:06:44.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="lagwL_95mnLTkyjQv8re" version="20.3.2" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -187,13 +187,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="78U8H3vz3ysczI6LlTVW-58" value="编辑元数据信息" style="shape=umlFrame;whiteSpace=wrap;html=1;width=133;height=28;" vertex="1" parent="1">
-          <mxGeometry x="8" y="522" width="820" height="330" as="geometry" />
+          <mxGeometry x="32" y="522" width="820" height="330" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-15" value="获取元数据详情" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;" vertex="1" parent="1">
-          <mxGeometry x="10" y="240" width="820" height="260" as="geometry" />
+          <mxGeometry x="34" y="240" width="820" height="260" as="geometry" />
         </mxCell>
         <mxCell id="dul_UqaILi7yg5PHXs3L-1" value="VOD portal 前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="149" y="80" width="120" height="810" as="geometry" />
+          <mxGeometry x="173" y="80" width="120" height="810" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-13" value="4. 根据metaKey解密出敏感信息并展示" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;curved=1;" edge="1" parent="dul_UqaILi7yg5PHXs3L-1">
           <mxGeometry relative="1" as="geometry">
@@ -216,7 +216,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dul_UqaILi7yg5PHXs3L-4" value="VOD portal 后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="399" y="80" width="120" height="810" as="geometry" />
+          <mxGeometry x="423" y="80" width="120" height="810" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dul_UqaILi7yg5PHXs3L-4">
           <mxGeometry x="55" y="270" width="10" height="50" as="geometry" />
@@ -243,62 +243,62 @@
         </mxCell>
         <mxCell id="dul_UqaILi7yg5PHXs3L-23" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="78U8H3vz3ysczI6LlTVW-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="49" y="310" as="sourcePoint" />
-            <mxPoint x="208.5" y="310" as="targetPoint" />
+            <mxPoint x="73" y="310" as="sourcePoint" />
+            <mxPoint x="232.5" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-9" value="3.返回元数据详情" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;curved=1;" edge="1" source="78U8H3vz3ysczI6LlTVW-7" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="398" as="targetPoint" />
+            <mxPoint x="244" y="398" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-8" value="2. 根据Id获取元数据信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;curved=1;" edge="1" target="78U8H3vz3ysczI6LlTVW-7" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="350" as="sourcePoint" />
+            <mxPoint x="244" y="350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-14" value="VNO" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="19" y="280" width="30" height="60" as="geometry" />
+          <mxGeometry x="43" y="280" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-16" value="前置条件" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="130" width="820" height="80" as="geometry" />
+          <mxGeometry x="34" y="130" width="820" height="80" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-17" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="400" width="60" height="30" as="geometry" />
+          <mxGeometry x="404" y="400" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-23" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=4;spacingRight=4;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="400" y="410" width="20" height="14" as="geometry" />
+          <mxGeometry x="424" y="410" width="20" height="14" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-24" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=4;spacingRight=4;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="400" y="410" width="20" height="14" as="geometry" />
+          <mxGeometry x="424" y="410" width="20" height="14" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-29" value="VNO从portal跳转到vodportal，带入解密后的masterKey,RSA私钥，vno shareKey,vno metaKey等信息&lt;br&gt;或者根据登录流程，直接登录获取解密后的masterKey,RSA私钥，vno shareKey,vno metaKey等信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="39" y="170" width="750" height="30" as="geometry" />
+          <mxGeometry x="63" y="170" width="750" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="205" y="300" width="10" height="190" as="geometry" />
+          <mxGeometry x="229" y="300" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-35" value="5.vno录入元数据信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;" edge="1" parent="1" target="dul_UqaILi7yg5PHXs3L-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="50" y="590" as="sourcePoint" />
-            <mxPoint x="100" y="590" as="targetPoint" />
+            <mxPoint x="74" y="590" as="sourcePoint" />
+            <mxPoint x="124" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-36" value="VNO" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="17" y="560" width="30" height="60" as="geometry" />
+          <mxGeometry x="41" y="560" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-47" value="6.根据metaKey加密敏感信息并提交" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;curved=1;" edge="1" target="78U8H3vz3ysczI6LlTVW-46" parent="1" source="dul_UqaILi7yg5PHXs3L-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="384" y="620" as="sourcePoint" />
+            <mxPoint x="408" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-48" value="7.返回提交成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;curved=1;" edge="1" source="78U8H3vz3ysczI6LlTVW-46" parent="1" target="dul_UqaILi7yg5PHXs3L-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="384" y="696" as="targetPoint" />
+            <mxPoint x="408" y="696" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="78U8H3vz3ysczI6LlTVW-51" value="search" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="650" y="80" width="120" height="810" as="geometry" />
+          <mxGeometry x="674" y="80" width="120" height="810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
