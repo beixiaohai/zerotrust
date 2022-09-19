@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T06:58:04.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="HnaxcPuN9cCy3UfX5jPb" version="20.3.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-19T07:01:14.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="_WbHakA2kc8lYXMJSbFY" version="20.3.2" type="github" pages="4">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -445,6 +445,17 @@
             <mxPoint x="130" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="eoCXFDoKKmJVifIwsHfB-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="eoCXFDoKKmJVifIwsHfB-1">
+          <mxGeometry x="44" y="931" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eoCXFDoKKmJVifIwsHfB-38" value="11. 根据metaKey解密出敏感数据，并展示" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" target="eoCXFDoKKmJVifIwsHfB-37" parent="eoCXFDoKKmJVifIwsHfB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="49" y="911" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79" y="911" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eoCXFDoKKmJVifIwsHfB-2" value="EndUser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="80" width="100" height="1040" as="geometry" />
         </mxCell>
@@ -453,6 +464,9 @@
             <mxPoint x="50" y="360" as="sourcePoint" />
             <mxPoint x="130" y="360" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eoCXFDoKKmJVifIwsHfB-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="eoCXFDoKKmJVifIwsHfB-2">
+          <mxGeometry x="45" y="830" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eoCXFDoKKmJVifIwsHfB-3" value="大数据" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="80" width="100" height="1040" as="geometry" />
@@ -521,6 +535,16 @@
             <mxPoint x="449.5" y="869.75" as="targetPoint" />
             <mxPoint x="1045" y="869.75" as="sourcePoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eoCXFDoKKmJVifIwsHfB-36" value="10.返回带敏感信息的top数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" source="eoCXFDoKKmJVifIwsHfB-34" parent="1" target="eoCXFDoKKmJVifIwsHfB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eoCXFDoKKmJVifIwsHfB-35" value="9.获取topN数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" target="eoCXFDoKKmJVifIwsHfB-34" parent="1" source="eoCXFDoKKmJVifIwsHfB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="910" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
