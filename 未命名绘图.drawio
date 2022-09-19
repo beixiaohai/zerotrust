@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T07:03:27.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="rs7jLleVqdBwLzbPHG_B" version="20.3.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-19T07:13:52.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7IfgtCjeV64ygK5rbVYD" version="20.3.2" type="github" pages="5">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -545,6 +545,121 @@
         <mxCell id="eoCXFDoKKmJVifIwsHfB-35" value="9.获取topN数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" target="eoCXFDoKKmJVifIwsHfB-34" parent="1" source="eoCXFDoKKmJVifIwsHfB-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="375" y="910" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4. crm dashboard" id="LhAWnNlSXdASxboQdcK3">
+    <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1827" pageHeight="1569" math="0" shadow="0">
+      <root>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-0" />
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-1" parent="1HJaYaZaN73zxG1nSYCi-0" />
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-2" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-1">
+          <mxGeometry x="200" y="80" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-3" value="1.上报数据（包括敏感数据）" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#FFFF00;curved=1;" edge="1" parent="1HJaYaZaN73zxG1nSYCi-2" target="1HJaYaZaN73zxG1nSYCi-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="320" as="sourcePoint" />
+            <mxPoint x="130" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-6" value="EndUser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-1">
+          <mxGeometry x="400" y="80" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-7" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;1.上报数据&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#FFFF00;curved=1;" edge="1" parent="1HJaYaZaN73zxG1nSYCi-6" target="1HJaYaZaN73zxG1nSYCi-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="360" as="sourcePoint" />
+            <mxPoint x="130" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-9" value="大数据" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-1">
+          <mxGeometry x="600" y="80" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-9">
+          <mxGeometry x="45" y="419" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-11" value="2. 分析数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" parent="1HJaYaZaN73zxG1nSYCi-9" target="1HJaYaZaN73zxG1nSYCi-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="399" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-12" value="3. 定时上传" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" parent="1HJaYaZaN73zxG1nSYCi-9" target="1HJaYaZaN73zxG1nSYCi-18">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="500" as="sourcePoint" />
+            <mxPoint x="130" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-13" value="crm后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-1">
+          <mxGeometry x="1000" y="80" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-13">
+          <mxGeometry x="45" y="661" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-16" value="6. 将数据写入数据库" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" parent="1HJaYaZaN73zxG1nSYCi-13" target="1HJaYaZaN73zxG1nSYCi-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="641" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="esMTdwoBUDNPGx_WvczT-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-13">
+          <mxGeometry x="45" y="740" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-17" value="前置条件" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-1">
+          <mxGeometry x="160" y="160" width="1240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-18" value="FTP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-1">
+          <mxGeometry x="800" y="80" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-18">
+          <mxGeometry x="44" y="560" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-20" value="4. 定时拉取统计数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" parent="1HJaYaZaN73zxG1nSYCi-1" source="1HJaYaZaN73zxG1nSYCi-13" target="1HJaYaZaN73zxG1nSYCi-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1HJaYaZaN73zxG1nSYCi-21" value="5. 返回统计数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" parent="1HJaYaZaN73zxG1nSYCi-1" source="1HJaYaZaN73zxG1nSYCi-19" target="1HJaYaZaN73zxG1nSYCi-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="697" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="esMTdwoBUDNPGx_WvczT-0" value="crm前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-1">
+          <mxGeometry x="1200" y="80" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="esMTdwoBUDNPGx_WvczT-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="esMTdwoBUDNPGx_WvczT-0">
+          <mxGeometry x="45" y="857" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esMTdwoBUDNPGx_WvczT-18" value="&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;10.使用metaKey解密敏感信息并展示&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" target="esMTdwoBUDNPGx_WvczT-17" parent="esMTdwoBUDNPGx_WvczT-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="837" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="837" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="esMTdwoBUDNPGx_WvczT-8" value="8.获取统计数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" target="esMTdwoBUDNPGx_WvczT-7" parent="1HJaYaZaN73zxG1nSYCi-1" source="esMTdwoBUDNPGx_WvczT-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="820" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="esMTdwoBUDNPGx_WvczT-9" value="9.返回统计数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" source="esMTdwoBUDNPGx_WvczT-7" parent="1HJaYaZaN73zxG1nSYCi-1" target="esMTdwoBUDNPGx_WvczT-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="877" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="esMTdwoBUDNPGx_WvczT-11" value="VNO&amp;amp;Brand" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1HJaYaZaN73zxG1nSYCi-1">
+          <mxGeometry x="1400" y="760" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="esMTdwoBUDNPGx_WvczT-12" value="7.VNO访问dashboard" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#FFFFFF;curved=1;" edge="1" parent="1HJaYaZaN73zxG1nSYCi-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1390" y="790" as="sourcePoint" />
+            <mxPoint x="1250" y="789.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
