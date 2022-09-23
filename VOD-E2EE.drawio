@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T06:16:14.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="2NdJDrasXbOA_OOtnFGF" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T06:33:10.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="6GuRcs00WQQBTsfJI3FG" version="20.3.3" type="github">
   <diagram id="DWNHWwYdhY_TpBj45JCR" name="VOD-APP">
     <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1827" pageHeight="1569" math="0" shadow="0">
       <root>
@@ -200,6 +200,12 @@
         </mxCell>
         <mxCell id="w6PQZcsBQY26OfxpyrA7-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="w6PQZcsBQY26OfxpyrA7-68">
           <mxGeometry x="45" y="969" width="10" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="w6PQZcsBQY26OfxpyrA7-71" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;播放&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=#FFFF00;" edge="1" parent="1" target="w6PQZcsBQY26OfxpyrA7-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1360" as="sourcePoint" />
+            <mxPoint x="450" y="1360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
