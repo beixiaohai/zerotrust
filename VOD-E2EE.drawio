@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T06:14:55.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="63tq7DVn_flUN9XoJw3r" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T06:16:14.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="2NdJDrasXbOA_OOtnFGF" version="20.3.3" type="github">
   <diagram id="DWNHWwYdhY_TpBj45JCR" name="VOD-APP">
     <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1827" pageHeight="1569" math="0" shadow="0">
       <root>
@@ -186,12 +186,13 @@
         <mxCell id="w6PQZcsBQY26OfxpyrA7-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="1002" y="1180" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w6PQZcsBQY26OfxpyrA7-66" value="19. 从S3获取播放资源" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="w6PQZcsBQY26OfxpyrA7-65" parent="1">
+        <mxCell id="w6PQZcsBQY26OfxpyrA7-66" value="19. 从S3获取播放资源" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1007" y="1160" as="sourcePoint" />
+            <mxPoint x="1004" y="1160" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1037" y="1160" />
+              <mxPoint x="1034" y="1160" />
             </Array>
+            <mxPoint x="1009" y="1180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w6PQZcsBQY26OfxpyrA7-68" value="流媒体" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
