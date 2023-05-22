@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T07:42:22.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="QQaVqoL-FuIe94uFBfNq" version="21.3.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-22T08:03:38.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="U0WrHaMeoKneHx6uHanJ" version="21.3.2" type="github" pages="8">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -966,7 +966,7 @@
         <mxCell id="VQ_W6rk55NhumFkEjovJ-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="97QXLRUj6iJ8jIdUAhH7-17">
           <mxGeometry x="55" y="725" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VQ_W6rk55NhumFkEjovJ-54" value="查询打包进度，并更新相关数据" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="VQ_W6rk55NhumFkEjovJ-53" parent="97QXLRUj6iJ8jIdUAhH7-17">
+        <mxCell id="VQ_W6rk55NhumFkEjovJ-54" value="查询打包进度，并更新相关数据&lt;br&gt;（apkUrl，packageStatus，packageEndTime）" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="VQ_W6rk55NhumFkEjovJ-53" parent="97QXLRUj6iJ8jIdUAhH7-17">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="60" y="705" as="sourcePoint" />
             <Array as="points">
