@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T08:03:38.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="U0WrHaMeoKneHx6uHanJ" version="21.3.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-22T08:05:48.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="t1QJSXdo1kRncotMATwD" version="21.3.2" type="github" pages="8">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1033,8 +1033,8 @@
             <mxPoint x="715" y="495" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VQ_W6rk55NhumFkEjovJ-3" value="新建gs_launcher_info&lt;br&gt;新建gs_launcher_apk_basic_info" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="97QXLRUj6iJ8jIdUAhH7-1">
-          <mxGeometry x="730" y="450" width="180" height="30" as="geometry" />
+        <mxCell id="VQ_W6rk55NhumFkEjovJ-3" value="新建：&lt;br&gt;gs_launcher_info&lt;br&gt;gs_launcher_version_basic_info" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="97QXLRUj6iJ8jIdUAhH7-1">
+          <mxGeometry x="730" y="450" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VQ_W6rk55NhumFkEjovJ-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="97QXLRUj6iJ8jIdUAhH7-1">
           <mxGeometry x="515.5" y="560" width="10" height="80" as="geometry" />
@@ -1066,7 +1066,7 @@
             <mxPoint x="715.5" y="625" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VQ_W6rk55NhumFkEjovJ-10" value="新建gs_launcher_apk_app_info" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="97QXLRUj6iJ8jIdUAhH7-1">
+        <mxCell id="VQ_W6rk55NhumFkEjovJ-10" value="新建gs_launcher_version_app_info" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="97QXLRUj6iJ8jIdUAhH7-1">
           <mxGeometry x="730.5" y="580" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VQ_W6rk55NhumFkEjovJ-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="97QXLRUj6iJ8jIdUAhH7-1">
